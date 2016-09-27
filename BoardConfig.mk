@@ -26,6 +26,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_piccolo_defconfig
 # Assert
 TARGET_OTA_ASSERT_DEVICE := aquarism5,piccolo,Aquaris_M5
 
+# Board
+TARGET_BOARD_INFO_FILE := device/bq/piccolo/board-info.txt
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/piccolo/bluetooth
 
